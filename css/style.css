@@ -1,0 +1,72 @@
+body{
+    background-color: green;
+}
+.container {
+     background-color: black;
+     padding: 1px;
+     margin: 200px;  
+}
+.secondcount{
+    width:350px;
+    height:100% ;
+    position:relative;
+    left:29%;
+    background-color:wheat;
+    border-radius: 8px;
+}
+.calculator{
+    padding: 15px;
+}
+input{
+    width: 100%;
+    padding: 3px;
+    text-align: center;
+    font-size: 30px;
+    color:black;   
+}
+.btn{
+    width: 50px;
+    height: 50px;
+    margin: 12px 13px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 50%;
+    border: none;
+}
+.number, .operator{
+    cursor: pointer;
+}
+.btn:nth-child(6){
+    background-color: green;
+}
+.btn:nth-child(10){
+    background-color: blue;
+}
+.btn:nth-child(11) {
+    background-color: tomato;
+}
+button:nth-child(16){
+    background-color: orange;
+}
+button:nth-child(21){
+    background-color:blue;
+}
+button:nth-child(23){
+    border-radius: 30px;
+}
+button:nth-child(26){
+    background-color: brown ;
+}
+button:nth-child(1){
+    background-color:transparent;
+}
+button:nth-child(3){
+    background-color:transparent;
+}
+
+
+
+
+
+    
+
